@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ContributionComponent extends StatelessWidget {
   final String title;
 
-  ContributionComponent({required this.title});
+  const ContributionComponent({required this.title});
 
   @override
   Widget build(BuildContext context) {

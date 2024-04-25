@@ -13,12 +13,11 @@ class TripHistoryComponent extends StatelessWidget {
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
           ),
         ),
-        const SizedBox(
-            height: 10), // Add space between the title and the containers
+        const SizedBox(height: 10),
         Container(
           margin: const EdgeInsets.only(bottom: 10),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10), // Add borderRadius
+            borderRadius: BorderRadius.circular(10),
             color: Colors.grey.shade100,
           ),
           child: Container(
@@ -45,8 +44,7 @@ class TripHistoryComponent extends StatelessWidget {
                                 Icons.border_all_outlined,
                                 color: Colors.grey,
                               ),
-                              SizedBox(
-                                  width: 5), // Add space between icon and text
+                              SizedBox(width: 5),
                               Text(
                                 '2919',
                                 style: TextStyle(fontSize: 12),
@@ -55,8 +53,7 @@ class TripHistoryComponent extends StatelessWidget {
                           ),
                         ],
                       ),
-                      Icon(Icons.arrow_forward_ios,
-                          color: Colors.grey), // Add arrow icon here
+                      Icon(Icons.arrow_forward_ios, color: Colors.grey),
                     ],
                   ),
                 ),
@@ -67,7 +64,7 @@ class TripHistoryComponent extends StatelessWidget {
         Container(
           margin: const EdgeInsets.only(bottom: 10),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10), // Add borderRadius
+            borderRadius: BorderRadius.circular(10),
             color: Colors.grey.shade100,
           ),
           child: Container(
@@ -94,8 +91,7 @@ class TripHistoryComponent extends StatelessWidget {
                                 Icons.border_all_outlined,
                                 color: Colors.grey,
                               ),
-                              SizedBox(
-                                  width: 5), // Add space between icon and text
+                              SizedBox(width: 5),
                               Text(
                                 '3121',
                                 style: TextStyle(fontSize: 12),
@@ -108,7 +104,6 @@ class TripHistoryComponent extends StatelessWidget {
                         Icons.arrow_forward_ios,
                         color: Colors.grey,
                       ),
-                      // Add arrow icon here
                     ],
                   ),
                 ),
@@ -116,7 +111,6 @@ class TripHistoryComponent extends StatelessWidget {
             ),
           ),
         ),
-        // Add more TripItems as needed
       ],
     );
   }

@@ -44,8 +44,7 @@ class MyApp extends StatelessWidget {
                               color: Colors.grey.withOpacity(0.3),
                               spreadRadius: 5,
                               blurRadius: 7,
-                              offset: const Offset(
-                                  0, 3), // changes position of shadow
+                              offset: const Offset(0, 3),
                             ),
                           ],
                         ),
@@ -136,8 +135,8 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
                 child: ContributionComponent(
                     title:
                         'Contribution to the environment thanks to your trips:'),
