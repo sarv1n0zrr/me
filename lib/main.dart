@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                           boxShadow: [
                             BoxShadow(
                               color: Colors.grey.withOpacity(0.3),
-                              spreadRadius: 5,
+                              spreadRadius: 6,
                               blurRadius: 7,
                               offset: const Offset(0, 3),
                             ),
@@ -142,7 +142,7 @@ class MyApp extends StatelessWidget {
                         'Contribution to the environment thanks to your trips:'),
               ),
               Padding(
-                padding: const EdgeInsets.all(15.0),
+                padding: const EdgeInsets.all(16.0),
                 child: TripHistoryComponent(),
               ),
             ],
